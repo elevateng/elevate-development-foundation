@@ -6,7 +6,7 @@ import { PageHero, StatementCta } from "../components/SiteShell";
 export const metadata: Metadata = { title: "Leadership", description: "Meet the youth-led team and volunteer trustees guiding Elevate Development Foundation." };
 
 const featured = [
-  { name: "Abiola Adebiyi", role: "Founder & Co-President, Projects", image: "/images/abiola-8075.webp", bio: "Abiola founded Elevate in 2016 after visiting Makoko. She leads programme strategy, partnerships around project delivery and the long-term mission to connect young Africans with mindset, education, employment and innovation pathways." },
+  { name: "Abiola Adebiyi", role: "Founder & Co-President, Projects", image: "/images/abiola-adebiyi.png", bio: "Abiola founded Elevate in 2016 after visiting Makoko. She leads programme strategy, partnerships around project delivery and the long-term mission to connect young Africans with mindset, education, employment and innovation pathways." },
   { name: "Fiyinfoluwa Adewumi", role: "Co-President, People & Operations", image: "/images/fiyinfoluwa-adewumi.webp", bio: "Fiyinfoluwa leads the people, culture and operating systems that turn Elevate's strategy into coordinated work across teams and locations." },
   { name: "Francess Oyelade", role: "Digital Innovation Lead", image: "/images/francess-oyelade.webp", bio: "Francess leads digital-product thinking at Elevate, including the development of learning experiences designed to extend practical skills and opportunity." },
   { name: "Oluwapelumi Abodunrin", role: "Media Lead", image: "/images/oluwapelumi-abodunrin.webp", bio: "Oluwapelumi guides Elevate's media practice—helping the organisation document programmes, protect participant dignity and make the work visible with clarity." },
