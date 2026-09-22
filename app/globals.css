@@ -310,3 +310,107 @@ p{font-size:18px}
 @media(prefers-reduced-motion:reduce){
   *{scroll-behavior:auto!important;animation:none!important;transition:none!important}
 }
+
+
+/* Restore original visual language after temporary recovery stylesheet */
+.mission-vision-grid>div,
+.values-grid article,
+.method-grid article,
+.why-grid article,
+.trust-grid article,
+.ways-grid article,
+.give-grid article,
+.project-index-open,
+.project-metrics article,
+.evidence-card,
+.report-list a,
+.chapter-live,
+.chapter-standard,
+.giving-panel-side,
+.role-list article,
+.matcher-tool,
+.choice-grid button,
+.matcher-result,
+.matcher-placeholder,
+.report-metric-grid article,
+.report-tab-panel,
+.report-source-note,
+.founder-note,
+.champion-note,
+.security-note,
+.method-note{
+  border-radius:0;
+}
+
+.origin-section img,
+.chapter-map-section img,
+.partner-map img,
+.story-collage img,
+.programme-gallery img,
+.programme-gallery-pro img,
+.gallery-masonry img,
+.video-frame,
+.photo-story{
+  border-radius:0;
+}
+
+.leadership-featured{
+  background:#072846;
+}
+.leader-card-grid{
+  gap:32px;
+}
+.leader-card{
+  grid-template-columns:45% 55%;
+  min-height:760px;
+  border:1px solid rgba(255,255,255,.18);
+  border-radius:46px;
+  background:#17324f;
+}
+.leader-photo,
+.leader-photo img{
+  min-height:760px;
+}
+.leader-photo{
+  background:#17324f;
+}
+.leader-photo img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center top;
+}
+.leader-card>div:last-child{
+  padding:clamp(44px,6vw,86px);
+}
+.leader-card h3{
+  font-size:clamp(56px,5.6vw,82px);
+  margin-bottom:30px;
+}
+.leader-card>div:last-child>p:last-child{
+  max-width:610px;
+  font-size:clamp(20px,2.1vw,29px);
+  line-height:1.8;
+  color:#d4dce5;
+}
+
+@media(max-width:1100px){
+  .leader-card{
+    min-height:620px;
+    grid-template-columns:44% 56%;
+  }
+  .leader-photo,.leader-photo img{
+    min-height:620px;
+  }
+}
+@media(max-width:720px){
+  .leader-card{
+    grid-template-columns:1fr;
+    min-height:0;
+    border-radius:28px;
+  }
+  .leader-photo,.leader-photo img{
+    min-height:430px;
+    height:430px;
+  }
+}
